@@ -3,6 +3,7 @@ import { ensureAuth } from "../Middlewares/Auth";
 const router = Router();
 
 router.get("/", ensureAuth, (req, res) => {
+    // console.log('-----logged in user detail-----', req.user);
     res.status(200).json([
         {
             name: "product 1",
