@@ -65,7 +65,7 @@ export function Signup() {
                     Welcome to T-REX
                 </h2>
                 <p className="text-neutral-600 text-sm max-w-sm mt-2 text-center dark:text-neutral-300">
-                    Login to Trex
+                    Sign Up to Trex
                 </p>
 
                 <form className="my-8" onSubmit={handleSignup}>
