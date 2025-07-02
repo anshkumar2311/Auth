@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { ensureAuth } from "../Middlewares/Auth";
+import { ensureAuth } from "../Middlewares/Auth.ts";
 const router = Router();
 
 router.get("/", ensureAuth, (req, res) => {

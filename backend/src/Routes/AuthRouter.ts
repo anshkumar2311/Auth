@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { login, signup } from "../Controllers/AuthController";
-import { loginValidation, signupValidation } from "../Middlewares/AuthValidation";
+import { login, signup } from "../Controllers/AuthController.ts";
+import { loginValidation, signupValidation } from "../Middlewares/AuthValidation.ts";
 const router = Router();
 
 // router.post("/login", (req, res) => {
